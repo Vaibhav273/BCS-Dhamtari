@@ -1,0 +1,38 @@
+.footer {
+    background-color: #ededed;
+
+    .footer-widget {
+        height: 100%;
+
+
+
+        .footer-logo {
+            height: 150px;
+            filter: invert(.4);
+        }
+    }
+
+    .map-address {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hs-footer-contact{
+        border-radius: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .xb-item--contact {
+        margin-bottom: 0;
+
+        h3 {
+            margin-bottom: 0;
+            font-family: "Recoleta", sans-serif;
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+<section class="hero hero-style-three ul_li pos-rel" [style.background-image]="'url(assets/img/bg/hero_bg02.jpg)'">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hero__content-wrap">
+                    <div class="section-title clr-white pt-25">
+                        <span class="sub-title wow fadeInUp">Welcome to BCS Govt. P.G. College</span>
+                        <h1 class="title mb-25 wow fadeInUp">Your Future Begins at BCS Govt. P.G. College</h1>
+                        <p class="content wow fadeInUp">
+                            We are dedicated to providing an exceptional education that prepares students for success in
+                            careers, and life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4 pos-rel">
+                <!-- <img src="assets/img/hero/slider-1.png"> -->
+                <div class="slider-right">
+                    <!-- <ngb-carousel [showNavigationArrows]="false" [showNavigationIndicators]="false" [interval]="2000"
+                        [wrap]="false" [keyboard]="true" [pauseOnHover]="false"> -->
+                    <ngb-carousel [showNavigationArrows]="false" [showNavigationIndicators]="false" [interval]="2000"
+                        [wrap]="true" [keyboard]="true" [pauseOnHover]="true">
+                        @for (item of images; track item.id) {
+                        <ng-template ngbSlide class="text-center">
+                            <!-- <img src="assets/img/hero/slider-1.png"> -->
+                            <img [src]="item.img" alt="Slider Image {{item.id}}">
+                        </ng-template>
+                        }
+                    </ngb-carousel>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="marquee-wrapper">
+    <om-marquee [animationDuration]="'30s'" [marqueeGap]="'1.5rem'" [pauseOnHover]="true">
+        @for (item of news; track item.idx) {
+        <ng-template>
+            <p><i class="fa fa-arrow-right"></i> {{ item?.newsName }}</p>
+        </ng-template>
+        }
+    </om-marquee>
+</div>

@@ -1,0 +1,39 @@
+.team-slide {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    overflow: hidden;
+
+    .team-item {
+        flex: 0 1 25%;
+        background: #fff;
+        border-radius: 10px;
+        padding: 16px;
+        text-align: center;
+
+        img {
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.tag-number {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    background-color: #d9293a;
+    width: 70px;
+
+    .top-tag {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}
+
+.fanfact {
+    border-top: 5px solid;
+    /* Set a fallback border style and width */
+    border-image: linear-gradient(to right, red, blue, green) 1;
+}

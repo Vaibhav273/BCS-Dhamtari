@@ -1,0 +1,83 @@
+<section class="fanfact hs-fanfact_bg pt-10 pb-90 pos-rel">
+    <div class="container-fluid">
+        <div class="hs-principle pt-105">
+            <div class="row align-items-center pl-100 pr-100">
+                <div class="col-lg-5 mt-30">
+                    <div class="hs-principle-left pos-rel wow skewIn">
+                        <img src="assets/img/fanfact/principle-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 mt-30">
+                    <div class="hs-principle-right wow fadeInLeft" data-wow-delay="200ms" data-wow-duration=".6s">
+                        <div class="section-title mb-40">
+                            <span class="sub-title">embracing young peoples curosity</span>
+                            <h1 class="title mb-25">from the pen of the Principal</h1>
+                            <h4 class="">Dr. Vinod Kumar Pathak - (Principal)</h4>
+                            <p class="xb-conten">Dear students, Parents and Visitors,</p>
+                            <p class="xb-conten">It is with great pride and excitement that I Welcome you to the
+                                official website of BCS Govt. P.G. College, Dhamtari - Chhattisgarh. As Principal, I am
+                                honored to lead an Institution that has consistently upheld its commitment & excellence
+                                in education and holistic development.</p>
+                            <p class="xb-conten">At BCS Govt. P.G. college Dhamtari, we believe in nurturing not just
+                                academic prowess, but also character, creativity and leadership, our mission is to
+                                empower students with the skills and knowledge, required to succeed in an ever-evolving
+                                world while instilling values that will guide than in both their Professional and
+                                personal lives. We encourage our students" to be curious, innovative and socially
+                                responsible citizens.</p>
+                            <p class="xb-conten">Our college has always been a place of learning, growth and self
+                                salience, with a vibrant campus life and dedicated faculty, we offer an environment,
+                                where students can thrive intellectually, socially and emotionally. Over the years, we
+                                have built a legacy of academic achievements, sports successes and cultural excellence
+                                and we remain committed to advancing these traditions in the years to come.</p>
+                            <p class="xb-conten">As we look to the future, we are focused on continually improving our
+                                infrastructure, expanding research opportunities and fostering Industry Partnerships.
+                                Our goal is to ensure that every student who walks through our doors leaves with not
+                                only a degree but a solid foundation for successful and fulfilling life.</p>
+                            <p class="xb-conten">I Invite you to explore our website and learn more about the programs
+                                resources and opportunities that we offer together, let us canter bate to build a
+                                community of scholars, leaders and lifelong learners with was in regards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hs-fan_shape">
+        <img src="assets/img/shape/angle-white.png" alt="">
+    </div>
+</section>
+
+<section class="team pt-70 pb-70" style="background:#F1F1E9;">
+    <div class="container-fluid">
+        <div class="program-top pos-rel pl-100 pr-100">
+            <div class="section-title mb-60">
+                <span class="sub-title">our honorable</span>
+                <h2 class="title">Our Gem's</h2>
+            </div>
+        </div>
+    </div>
+    <div class="team-slider pl-100 pr-100">
+        <ngb-carousel [interval]="2000" [wrap]="true" [keyboard]="true" [pauseOnHover]="true">
+            @for (chunk of teamChunks; track chunk[0]?.id) {
+            <ng-template ngbSlide>
+                <div class="team-slide" style="display:flex;gap:24px;justify-content:center;">
+                    @for (member of chunk; track member.id) {
+                    <div class="team-item" style="flex:0 1 22%;">
+                        <div class="xb-item--img pos-rel">
+                            <img [src]="member.img" [alt]="member.name">
+                            <div class="tag-number">
+                                <span class="top-tag">{{member.tag}}</span>
+                            </div>
+                        </div>
+                        <div class="xb-item--info pt-25">
+                            <h3 class="xb-item--name">{{member.name}}</h3>
+                            <span class="xb-item--desig">{{member.desig}}</span>
+                        </div>
+                    </div>
+                    }
+                </div>
+            </ng-template>
+            }
+        </ngb-carousel>
+    </div>
+</section>

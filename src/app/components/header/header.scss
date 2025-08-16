@@ -1,0 +1,31 @@
+.header__wrap {
+    position: relative;
+
+    .hs-header-right {
+        width: 150px;
+    }
+
+    .header-logo {
+        width: 160px;
+
+        a {
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            background-color: #fff;
+            padding: 10px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+
+            img {
+                width: 150px;
+            }
+        }
+    }
+
+    .main-menu {
+        a {
+            font-size: 1rem;
+        }
+    }
+}

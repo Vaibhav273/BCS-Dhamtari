@@ -1,0 +1,28 @@
+.news {
+    background-color: #ededed;
+
+}
+
+.about-resource {
+    background-color: #ededed;
+    border-top: 5px solid;
+    /* Set a fallback border style and width */
+    border-image: linear-gradient(to right, red, blue, green) 1;
+}
+
+.about-iconbox-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: #d7d7d7;
+    z-index: 1;
+    position: relative;
+
+    a {
+        color: var(--bs-heading-color);
+    }
+
+    .xb-item--icon {
+        margin-right: 0;
+    }
+}
