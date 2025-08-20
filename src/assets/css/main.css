@@ -9706,7 +9706,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 @media (max-width: 1199px) {
   .hero-style-three {
-    min-height: 600px;
+    min-height: 250px;
   }
 }
 

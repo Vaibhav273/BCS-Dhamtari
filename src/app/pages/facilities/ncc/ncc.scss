@@ -12,30 +12,36 @@
     }
 }
 
-.my-custom-message{
-    .my-custom-message-content{
+.color-theme {
+    color: #d9293a;
+}
+
+.my-custom-message {
+    .my-custom-message-content {
         width: 100%;
         display: flex;
 
-        h3{
+        h3 {
             font-size: 1.2rem;
             font-weight: 700;
             margin-bottom: 10px;
         }
 
-        h4{
+        h4 {
             font-size: 1rem;
             font-weight: 700;
-             margin-bottom: 10px;
+            margin-bottom: 10px;
         }
-        p{
+
+        p {
             font-size: 0.95rem;
         }
     }
-    .side-image{
+
+    .side-image {
         margin-right: 1rem;
 
-        img{
+        img {
             height: 200px;
             width: 220px;
             border: 1px solid #ddd;

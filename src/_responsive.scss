@@ -9,13 +9,207 @@
 //iPads, Tablets
 @media (min-width: 769px) and (max-width: 1024px) {}
 
-@media (min-width: 481px) and (max-width: 768px) {}
-
-@media (min-width: 321px) and (max-width: 480px) {}
-
-@media screen and (max-width: 320px) {
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar-collapse {
+        &.show {
+            .navbar-nav {
+                padding-top: 40px;
+                transition: 0.2s ease-in-out;
+            }
+        }
+    }
 
     .header-area {
+        .left-logo {
+            img {
+                width: 100px !important;
+                top: -20px !important;
+            }
+        }
+
+        .right-logo {
+            display: none;
+        }
+    }
+
+    .hero-style-three {
+        padding-top: 10px;
+    }
+
+    .slider-right {
+        position: relative !important;
+        bottom: -3px !important;
+    }
+
+    .about-resource {
+        .row {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+
+    .hs-about {
+        border-radius: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem !important;
+
+        .row {
+            padding-top: 1rem !important;
+
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+
+    .hs-about-right {
+        .section-title {
+            .hs-content {
+                text-align: justify;
+                font-size: 0.95rem;
+            }
+        }
+
+        .xb-item--list {
+            li {
+                font-size: 0.95rem;
+            }
+        }
+    }
+
+    .xb-shape {
+        display: none;
+    }
+
+    .fanfact {
+        .hs-principle {
+            padding-top: 1rem;
+        }
+
+        .row {
+
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+
+        .xb-conten {
+            text-align: justify;
+            font-size: 0.95rem;
+        }
+    }
+
+    .hs-fan_shape {
+        display: none;
+    }
+
+    .team-slide {
+        display: block !important;
+    }
+
+    .program {
+        background-image: none !important;
+
+        .row {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .news {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .row {
+            padding-top: 1rem !important;
+
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+
+    .news-wrap {
+        margin-top: 1rem;
+    }
+
+    .about-iconbox-item {
+        .xb-item--icon {
+            width: 30px;
+            height: 30px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .xb-item--title {
+            font-size: 0.95rem;
+        }
+    }
+
+    .program-top {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+
+    .footer {
+        padding-top: 10px;
+
+        .footer-widget {
+            margin-top: 1rem;
+        }
+
+        .map-address {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .hs-footer-contact {
+            padding-top: 0.3rem !important;
+            padding-left: 5px;
+            padding-right: 5px;
+
+            .xb-item--text {
+                font-size: 1rem !important;
+            }
+        }
+
+        .xb-item--social_link {
+            margin-top: 1rem;
+        }
+    }
+
+    .hs-footer-shape {
+        .shape {
+            &.shape--two {
+                display: none;
+            }
+        }
+    }
+
+    .hide-on-tab{
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .navbar-collapse {
+        &.show {
+            .navbar-nav {
+                padding-top: 40px;
+                transition: 0.2s ease-in-out;
+            }
+        }
+    }
+
+    .header-area {
+        .left-logo {
+            img {
+                width: 100px !important;
+                top: -20px !important;
+            }
+        }
+
         .right-logo {
             display: none;
         }
@@ -37,6 +231,185 @@
         }
     }
 
+    .hs-about {
+        border-radius: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem !important;
+
+        .row {
+            padding-top: 1rem !important;
+
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+
+    .hs-about-right {
+        .section-title {
+            .hs-content {
+                text-align: justify;
+                font-size: 0.95rem;
+            }
+        }
+
+        .xb-item--list {
+            li {
+                font-size: 0.95rem;
+            }
+        }
+    }
+
+    .xb-shape {
+        display: none;
+    }
+
+    .fanfact {
+        .hs-principle {
+            padding-top: 1rem;
+        }
+
+        .row {
+
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+
+        .xb-conten {
+            text-align: justify;
+            font-size: 0.95rem;
+        }
+    }
+
+    .hs-fan_shape {
+        display: none;
+    }
+
+    .team-slide {
+        display: block !important;
+    }
+
+    .program {
+        background-image: none !important;
+
+        .row {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .news {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .row {
+            padding-top: 1rem !important;
+
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+
+    .news-wrap {
+        margin-top: 1rem;
+    }
+
+    .about-iconbox-item {
+        .xb-item--icon {
+            width: 30px;
+            height: 30px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .xb-item--title {
+            font-size: 0.95rem;
+        }
+    }
+
+    .program-top {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+
+    .footer {
+        padding-top: 10px;
+
+        .footer-widget {
+            margin-top: 1rem;
+        }
+
+        .map-address {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .hs-footer-contact {
+            padding-top: 0.3rem !important;
+            padding-left: 5px;
+            padding-right: 5px;
+
+            .xb-item--text {
+                font-size: 1rem !important;
+            }
+        }
+
+        .xb-item--social_link {
+            margin-top: 1rem;
+        }
+    }
+
+    .hs-footer-shape {
+        .shape {
+            &.shape--two {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .navbar-collapse {
+        &.show {
+            .navbar-nav {
+                padding-top: 40px;
+                transition: 0.2s ease-in-out;
+            }
+        }
+    }
+
+    .header-area {
+        .left-logo {
+            img {
+                width: 100px !important;
+                top: -20px !important;
+            }
+        }
+
+        .right-logo {
+            display: none;
+        }
+    }
+
+    .hero-style-three {
+        padding-top: 10px;
+    }
+
+    .slider-right {
+        position: relative !important;
+        bottom: 0 !important;
+    }
+
+    .about-resource {
+        .row {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
 
     .hs-about {
         border-radius: 0;
