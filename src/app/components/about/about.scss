@@ -9,6 +9,9 @@
     /* Set a fallback border style and width */
     border-image: linear-gradient(to right, red, blue, green) 1;
     /* Apply the gradient as border image, and "1" for border-image-slice*/
+    background-position: 100% 170%;
+    background-size: contain;
+
 }
 
 .marquee-news {

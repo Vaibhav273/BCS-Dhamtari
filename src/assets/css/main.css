@@ -6652,7 +6652,7 @@ input[type=search]::-webkit-search-results-decoration {
 .hs-program_inner {
   border-radius: 10px;
   overflow: hidden;
-  max-height: 400px;
+  max-height: 360px;
   margin-top: 30px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -8661,6 +8661,11 @@ input[type=search]::-webkit-search-results-decoration {
 
 .xb-news-contant .xb-item--title a {
   color: currentColor;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .news-wrap .xb-item--img {

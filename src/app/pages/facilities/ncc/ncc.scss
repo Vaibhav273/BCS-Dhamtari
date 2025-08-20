@@ -11,3 +11,36 @@
         }
     }
 }
+
+.my-custom-message{
+    .my-custom-message-content{
+        width: 100%;
+        display: flex;
+
+        h3{
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        h4{
+            font-size: 1rem;
+            font-weight: 700;
+             margin-bottom: 10px;
+        }
+        p{
+            font-size: 0.95rem;
+        }
+    }
+    .side-image{
+        margin-right: 1rem;
+
+        img{
+            height: 200px;
+            width: 220px;
+            border: 1px solid #ddd;
+            // padding: 10px;
+            border-radius: 10px;
+        }
+    }
+}
